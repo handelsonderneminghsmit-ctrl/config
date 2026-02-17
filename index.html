@@ -296,6 +296,37 @@
   .loading-msg { display: none; }
 
   /* ── RESULT PANEL ────────────────────────── */
+
+  .result-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:15px;
+    margin-top:20px;
+}
+
+.result-card{
+    background:#0d0d0d;
+    border:1px solid #2a2a2a;
+    border-radius:10px;
+    padding:18px;
+    text-align:center;
+}
+
+.result-title{
+    font-size:13px;
+    color:#8a8a8a;
+    margin-bottom:6px;
+}
+
+.result-value{
+    font-size:22px;
+    font-weight:700;
+}
+
+.result-gain{
+    background:#111;
+    border:1px solid #3a3a3a;
+}
   .result-panel {
     display: none;
     position: relative; z-index: 1;
@@ -801,24 +832,40 @@ function onMotor() {
 }
 
 function showResult() {
-  const e      = state.engineData;
+
+  const e = state.engineData;
+
   const gainPk = e.stage1_hp - e.stock_hp;
   const gainNm = e.stage1_nm - e.stock_nm;
-  const fuel   = FUEL_NL[e.fuel] || e.fuel;
 
-  document.getElementById('r-name').innerHTML =
-    `${state.merk} ${state.model} <span class="yr">${state.jaar}</span>`;
+  const html = `
 
-  document.getElementById('r-engine').innerHTML =
-    `<span class="fuel-badge">${fuel}</span>${state.engineKey}`;
+    <div class="result-grid">
 
-  document.getElementById('r-stock-pk').textContent = e.stock_hp  + ' pk';
-  document.getElementById('r-stock-nm').textContent = e.stock_nm  + ' nm';
-  document.getElementById('r-stage-pk').textContent = e.stage1_hp + ' pk';
-  document.getElementById('r-stage-nm').textContent = e.stage1_nm + ' nm';
+        <div class="result-card">
+            <div class="result-title">Origineel</div>
+            <div class="result-value">${e.stock_hp} PK</div>
+            <div class="result-title">${e.stock_nm} NM</div>
+        </div>
 
-  document.getElementById('result-panel').classList.add('show');
-  document.getElementById('cta-row').classList.add('show');
+        <div class="result-card">
+            <div class="result-title">Na tuning</div>
+            <div class="result-value">${e.stage1_hp} PK</div>
+            <div class="result-title">${e.stage1_nm} NM</div>
+        </div>
+
+        <div class="result-card result-gain">
+            <div class="result-title">Verschil</div>
+            <div class="result-value">+${gainPk} PK</div>
+            <div class="result-title">+${gainNm} NM</div>
+        </div>
+
+    </div>
+
+  `;
+
+  document.getElementById("result").innerHTML = html;
+  document.getElementById("result").style.display = "block";
 }
 
 function sendRequest() {
