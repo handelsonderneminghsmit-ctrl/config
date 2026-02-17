@@ -63231,10 +63231,10 @@
           "stock_hp": 280,
           "stage1_hp": 310,
           "stock_nm": 400,
-          "stage1_nm": 450			
+          "stage1_nm": 450		
 		  }
       },
-      " K - 2015-2018": {
+      "K - 2015-2018": {
         " 1.0T 105hp": {
           "fuel": "petrol",
           "stock_hp": 105,
@@ -63509,7 +63509,7 @@
           "stage1_hp": 130,
           "stock_nm": 254,
           "stage1_nm": 320
-        },
+        }
       }
     },
     "Corsa": {
