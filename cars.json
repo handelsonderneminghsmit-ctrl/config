@@ -46778,7 +46778,7 @@
       }
     },
     "Corsa": {
-      " C": {
+     " C - 2000-2006": {
         " 1.0i 12v 60hp": {
           "fuel": "petrol",
           "stock_hp": 60,
@@ -46836,7 +46836,7 @@
           "stage1_nm": 215
         }
       },
-      " D": {
+      " D - 2006-2015": {
         " 1.0i 12v 60hp": {
           "fuel": "petrol",
           "stock_hp": 60,
@@ -46950,7 +46950,7 @@
           "stage1_nm": 300
         }
       },
-      " E": {
+      " E - 2015-2019": {
         " 1.0 Turbo 115hp": {
           "fuel": "petrol",
           "stock_hp": 115,
@@ -47022,11 +47022,11 @@
           "stage1_nm": 340
         }
       },
-      " F": {
+      " F- 2019->": {
         " 1.2T 100hp": {
           "fuel": "petrol",
           "stock_hp": 100,
-          "stage1_hp": 135,
+          "stage1_hp": 125,
           "stock_nm": 205,
           "stage1_nm": 240
         },
@@ -47825,7 +47825,7 @@
       }
     },
     "Movano": {
-      " A": {
+      " A - 1998-2010": {
         " 1.9 CDTi 82hp": {
           "fuel": "diesel",
           "stock_hp": 82,
@@ -47873,7 +47873,7 @@
           "stock_hp": 145,
           "stage1_hp": 172,
           "stock_nm": 320,
-          "stage1_nm": 405
+          "stage1_nm": 400
         },
         " 3.0 CDTi 136hp": {
           "fuel": "diesel",
@@ -47883,7 +47883,60 @@
           "stage1_nm": 400
         }
       },
-      " B": {
+	  "B - 2010-2014":{
+		          " 2.3 CDTi 100hp": {
+          "fuel": "diesel",
+          "stock_hp": 100,
+          "stage1_hp": 155,
+          "stock_nm": 285,
+          "stage1_nm": 385
+        },
+		          " 2.3 CDTi 125hp": {
+          "fuel": "diesel",
+          "stock_hp": 125,
+          "stage1_hp": 155,
+          "stock_nm": 310,
+          "stage1_nm": 385
+        },
+		          " 2.3 CDTi 146hp": {
+          "fuel": "diesel",
+          "stock_hp": 146,
+          "stage1_hp": 180,
+          "stock_nm": 350,
+          "stage1_nm": 430
+        }
+	  },
+	  "B - 2014-2016":{
+		  		          " 2.3 CDTi 110hp": {
+          "fuel": "diesel",
+          "stock_hp": 100,
+          "stage1_hp": 155,
+          "stock_nm": 285,
+          "stage1_nm": 350
+        },
+		          " 2.3 CDTi 125hp": {
+          "fuel": "diesel",
+          "stock_hp": 125,
+          "stage1_hp": 155,
+          "stock_nm": 310,
+          "stage1_nm": 350
+        },
+          " 2.3 CDTi Bi-Turbo 136hp": {
+          "fuel": "diesel",
+          "stock_hp": 136,
+          "stage1_hp": 195,
+          "stock_nm": 340,
+          "stage1_nm": 420
+        },
+          " 2.3 CDTi Bi-Turbo 163hp": {
+          "fuel": "diesel",
+          "stock_hp": 163,
+          "stage1_hp": 195,
+          "stock_nm": 360,
+          "stage1_nm": 420
+        }
+	  },
+      " B - 2016-2018": {
         " 2.3 DCi (Euro 6) 110hp": {
           "fuel": "diesel",
           "stock_hp": 110,
@@ -47968,7 +48021,7 @@
       }
     },
     "Omega": {
-      " B": {
+      " B 1997-2003 ": {
         " 2.0 DTI 100hp": {
           "fuel": "diesel",
           "stock_hp": 100,
@@ -48380,7 +48433,7 @@
       }
     },
     "Zafira": {
-      " A": {
+      " A 1999-2005": {
         " 1.6i 16v 100hp": {
           "fuel": "petrol",
           "stock_hp": 100,
@@ -48438,7 +48491,7 @@
           "stage1_nm": 218
         }
       },
-      " B": {
+      " B 2005-2011": {
         " 1.6 Turbo 150hp": {
           "fuel": "petrol",
           "stock_hp": 150,
@@ -48524,7 +48577,7 @@
           "stage1_nm": 230
         }
       },
-      " C": {
+      " C 2011-2016": {
         " 1.4 Turbo 120hp": {
           "fuel": "petrol",
           "stock_hp": 120,
@@ -64970,7 +65023,7 @@
       }
     },
     "Vectra": {
-      " C": {
+      " C 2002-2009": {
         " 1.6i 16v 100hp": {
           "fuel": "petrol",
           "stock_hp": 100,
@@ -65301,7 +65354,7 @@
           "stage1_nm": 218
         }
 		},
-      " B": {
+      " B 2005-2011": {
         " 1.6 Turbo 150hp": {
           "fuel": "petrol",
           "stock_hp": 150,
@@ -65387,7 +65440,7 @@
           "stage1_nm": 230
         }
       },
-      " C": {
+      " C 2011-2016": {
         " 1.4 Turbo 120hp": {
           "fuel": "petrol",
           "stock_hp": 120,
