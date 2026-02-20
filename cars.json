@@ -10733,14 +10733,14 @@
     "X1": {
       " E84 - 2009 - 2012": {
         " 1.8D 136hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 136,
           "stage1_hp": 180,
           "stock_nm": 300,
           "stage1_nm": 390
         },
         " 1.8D 143hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 143,
           "stage1_hp": 180,
           "stock_nm": 300,
@@ -10761,21 +10761,21 @@
           "stage1_nm": 220
         },
         " 2.0D 163hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 163,
           "stage1_hp": 210,
           "stock_nm": 350,
           "stage1_nm": 420
         },
         " 2.0D 177hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 177,
           "stage1_hp": 215,
           "stock_nm": 350,
           "stage1_nm": 420
         },
         " 2.3D 204hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 204,
           "stage1_hp": 260,
           "stock_nm": 400,
@@ -10791,28 +10791,28 @@
           "stage1_nm": 220
         },
         " 16d 116hp (1995cc)": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 116,
           "stage1_hp": 190,
           "stock_nm": 260,
           "stage1_nm": 400
         },
         " 18d 143hp (1995cc)": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 143,
           "stage1_hp": 190,
           "stock_nm": 320,
           "stage1_nm": 400
         },
         " 2.0D 163hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 163,
           "stage1_hp": 220,
           "stock_nm": 380,
           "stage1_nm": 440
         },
         " 2.0D 184hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 184,
           "stage1_hp": 220,
           "stock_nm": 380,
@@ -10826,7 +10826,7 @@
           "stage1_nm": 420
         },
         " 2.5D 218hp (1995cc)": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 218,
           "stage1_hp": 270,
           "stock_nm": 450,
@@ -10842,14 +10842,14 @@
       },
       " F48 - 2015 - 2018": {
         " sDrive16d 116hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 116,
           "stage1_hp": 150,
           "stock_nm": 270,
           "stage1_nm": 330
         },
         " sDrive18d 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 320,
@@ -10870,14 +10870,14 @@
           "stage1_nm": 440
         },
         " xDrive18d 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 320,
           "stage1_nm": 400
         },
         " xDrive20d 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -10891,7 +10891,7 @@
           "stage1_nm": 420
         },
         " xDrive25d 231hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 231,
           "stage1_hp": 270,
           "stock_nm": 450,
@@ -10907,14 +10907,14 @@
       },
       " F48 LCI": {
         " sDrive16d 116hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 116,
           "stage1_hp": 150,
           "stock_nm": 270,
           "stage1_nm": 330
         },
         " sDrive18d 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 350,
@@ -10928,7 +10928,7 @@
           "stage1_nm": 280
         },
         " sDrive20d 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -10942,14 +10942,14 @@
           "stage1_nm": 440
         },
         " xDrive18d 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 350,
           "stage1_nm": 400
         },
         " xDrive20d 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -10963,14 +10963,14 @@
           "stage1_nm": 440
         },
         " xDrive25d 231hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 231,
           "stage1_hp": 270,
           "stock_nm": 500,
           "stage1_nm": 550
         },
         " xDrive25e 220hp": {
-          "fuel": "petrol",
+          "fuel": "hybrid",
           "stock_hp": 220,
           "stage1_hp": 245,
           "stock_nm": 385,
@@ -10986,7 +10986,7 @@
       },
       " U11 - 2023 -> ...": {
         " sDrive18d 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 360,
@@ -11011,14 +11011,14 @@
           "stage1_nm": 500
         },
         " s16d 116hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 116,
           "stage1_hp": 150,
           "stock_nm": 270,
           "stage1_nm": 330
         },
         " s18d / x18d 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 350,
@@ -11039,21 +11039,21 @@
           "stage1_nm": 440
         },
         " x20d 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
           "stage1_nm": 450
         },
         " x25d 231hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 231,
           "stage1_hp": 270,
           "stock_nm": 450,
           "stage1_nm": 550
         },
         " x25e 220hp": {
-          "fuel": "petrol",
+          "fuel": "hybrid",
           "stock_hp": 220,
           "stage1_hp": 245,
           "stock_nm": 385,
@@ -11065,35 +11065,35 @@
     "X3": {
       " E83 - 2004 - 2010": {
         " 1.8D 136hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 136,
           "stage1_hp": 180,
           "stock_nm": 300,
           "stage1_nm": 390
         },
         " 1.8D 143hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 143,
           "stage1_hp": 180,
           "stock_nm": 300,
           "stage1_nm": 390
         },
         " 2.0D 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 330,
           "stage1_nm": 400
         },
         " 2.0D 163hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 163,
           "stage1_hp": 210,
           "stock_nm": 350,
           "stage1_nm": 420
         },
         " 2.0D 177hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 177,
           "stage1_hp": 215,
           "stock_nm": 350,
@@ -11114,21 +11114,21 @@
           "stage1_nm": 271
         },
         " 3.0D 204hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 204,
           "stage1_hp": 250,
           "stock_nm": 410,
           "stage1_nm": 500
         },
         " 3.0D 211hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 211,
           "stage1_hp": 270,
           "stock_nm": 500,
           "stage1_nm": 580
         },
         " 3.0D 218hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 218,
           "stage1_hp": 270,
           "stock_nm": 500,
@@ -11142,7 +11142,7 @@
           "stage1_nm": 325
         },
         " 3.5D 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 332,
           "stock_nm": 580,
@@ -11151,42 +11151,42 @@
       },
       " F25 - 2011 - 2017": {
         " 1.8D 136hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 136,
           "stage1_hp": 220,
           "stock_nm": 320,
           "stage1_nm": 440
         },
         " 1.8D 143hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 143,
           "stage1_hp": 220,
           "stock_nm": 320,
           "stage1_nm": 440
         },
         " 1.8D 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 220,
           "stock_nm": 360,
           "stage1_nm": 440
         },
         " 2.0D 163hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 163,
           "stage1_hp": 220,
           "stock_nm": 380,
           "stage1_nm": 440
         },
         " 2.0D 184hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 184,
           "stage1_hp": 220,
           "stock_nm": 380,
           "stage1_nm": 440
         },
         " 2.0D 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -11207,28 +11207,28 @@
           "stage1_nm": 430
         },
         " 3.0D 211hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 211,
           "stage1_hp": 300,
           "stock_nm": 540,
           "stage1_nm": 620
         },
         " 3.0D 245hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 245,
           "stage1_hp": 300,
           "stock_nm": 540,
           "stage1_nm": 620
         },
         " 3.0D 258hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 258,
           "stage1_hp": 310,
           "stock_nm": 560,
           "stage1_nm": 650
         },
         " 3.5D 313hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 313,
           "stage1_hp": 360,
           "stock_nm": 630,
@@ -11244,7 +11244,7 @@
       },
       " G01/08 - 2017 - 2020": {
         " 30e 252hp": {
-          "fuel": "petrol",
+          "fuel": "hybrid",
           "stock_hp": 252,
           "stage1_hp": 340,
           "stock_nm": 420,
@@ -11265,35 +11265,35 @@
           "stage1_nm": 310
         },
         " xDrive M40d 326hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 326,
           "stage1_hp": 400,
           "stock_nm": 680,
           "stage1_nm": 800
         },
         " xDrive M40d 340hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 340,
           "stage1_hp": 400,
           "stock_nm": 700,
           "stage1_nm": 800
         },
         " xDrive18d 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 360,
           "stage1_nm": 440
         },
         " xDrive20d 163hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 163,
           "stage1_hp": 220,
           "stock_nm": 400,
           "stage1_nm": 480
         },
         " xDrive20d 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -11307,28 +11307,28 @@
           "stage1_nm": 440
         },
         " xDrive25d 231hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 231,
           "stage1_hp": 270,
           "stock_nm": 500,
           "stage1_nm": 550
         },
         " xDrive30d 265hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 265,
           "stage1_hp": 310,
           "stock_nm": 620,
           "stage1_nm": 720
         },
         " xDrive30d 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 330,
           "stock_nm": 650,
           "stage1_nm": 720
         },
         " xDrive30e 292hp": {
-          "fuel": "petrol",
+          "fuel": "hybrid",
           "stock_hp": 292,
           "stage1_hp": 400,
           "stock_nm": 420,
@@ -11344,7 +11344,7 @@
       },
       " G01/08 LCI - 2021 - 2024": {
         " M40d 340hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 340,
           "stage1_hp": 380,
           "stock_nm": 700,
@@ -11358,14 +11358,14 @@
           "stage1_nm": 575
         },
         " sDrive18d 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 320,
           "stage1_nm": 400
         },
         " xDrive20d 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -11379,14 +11379,14 @@
           "stage1_nm": 440
         },
         " xDrive30d 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 330,
           "stock_nm": 650,
           "stage1_nm": 720
         },
         " xDrive30e 292hp": {
-          "fuel": "petrol",
+          "fuel": "hybrid",
           "stock_hp": 292,
           "stage1_hp": 400,
           "stock_nm": 420,
@@ -11422,7 +11422,7 @@
     "X4": {
       " F26 - 2014 - 2017": {
         " 2.0d 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -11443,21 +11443,21 @@
           "stage1_nm": 450
         },
         " 3.0d 211hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 211,
           "stage1_hp": 300,
           "stock_nm": 560,
           "stage1_nm": 600
         },
         " 3.0d 258hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 258,
           "stage1_hp": 310,
           "stock_nm": 560,
           "stage1_nm": 650
         },
         " 3.5d 313hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 313,
           "stage1_hp": 360,
           "stock_nm": 630,
@@ -11480,14 +11480,14 @@
       },
       " G02 - 2018 ->": {
         " M40d 326hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 326,
           "stage1_hp": 380,
           "stock_nm": 680,
           "stage1_nm": 750
         },
         " M40d 340hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 340,
           "stage1_hp": 380,
           "stock_nm": 700,
@@ -11501,7 +11501,7 @@
           "stage1_nm": 580
         },
         " xDrive20d 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -11515,21 +11515,21 @@
           "stage1_nm": 440
         },
         " xDrive25d 231hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 231,
           "stage1_hp": 270,
           "stock_nm": 500,
           "stage1_nm": 550
         },
         " xDrive30d 265hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 265,
           "stage1_hp": 310,
           "stock_nm": 620,
           "stage1_nm": 650
         },
         " xDrive30d 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 330,
           "stock_nm": 650,
@@ -11565,14 +11565,14 @@
     "X5": {
       " E53 - 2000 - 2007": {
         " 3.0D 184hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 184,
           "stage1_hp": 220,
           "stock_nm": 410,
           "stage1_nm": 480
         },
         " 3.0D 218hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 218,
           "stage1_hp": 260,
           "stock_nm": 500,
@@ -11616,21 +11616,21 @@
       },
       " E70 - 2007 - 2010": {
         " 3.0D 211hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 211,
           "stage1_hp": 280,
           "stock_nm": 500,
           "stage1_nm": 600
         },
         " 3.0D 235hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 235,
           "stage1_hp": 280,
           "stock_nm": 520,
           "stage1_nm": 600
         },
         " 3.0D 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 340,
           "stock_nm": 580,
@@ -11660,21 +11660,21 @@
       },
       " E70 - 2010 - 2013": {
         " 3.0D 211hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 211,
           "stage1_hp": 300,
           "stock_nm": 540,
           "stage1_nm": 620
         },
         " 3.0D 245hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 245,
           "stage1_hp": 300,
           "stock_nm": 540,
           "stage1_nm": 620
         },
         " 3.5D 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 340,
           "stock_nm": 580,
@@ -11688,7 +11688,7 @@
           "stage1_nm": 520
         },
         " 4.0D 306hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 306,
           "stage1_hp": 360,
           "stock_nm": 600,
@@ -11702,7 +11702,7 @@
           "stage1_nm": 710
         },
         " M 5.0D 381hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 381,
           "stage1_hp": 420,
           "stock_nm": 740,
@@ -11718,14 +11718,14 @@
       },
       " F15 - 2013 - 2018": {
         " 2.5D 218hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 218,
           "stage1_hp": 270,
           "stock_nm": 450,
           "stage1_nm": 500
         },
         " 2.5D 231hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 231,
           "stage1_hp": 270,
           "stock_nm": 500,
@@ -11739,7 +11739,7 @@
           "stage1_nm": 430
         },
         " 3.0D 258hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 258,
           "stage1_hp": 310,
           "stock_nm": 560,
@@ -11753,7 +11753,7 @@
           "stage1_nm": 520
         },
         " 4.0D 313hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 313,
           "stage1_hp": 365,
           "stock_nm": 630,
@@ -11767,14 +11767,14 @@
           "stage1_nm": 780
         },
         " M 5.0D 381hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 381,
           "stage1_hp": 420,
           "stock_nm": 740,
           "stage1_nm": 800
         },
         " xDrive 25d 231hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 231,
           "stage1_hp": 270,
           "stock_nm": 500,
@@ -11797,35 +11797,35 @@
           "stage1_nm": 880
         },
         " xDrive M50d 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 430,
           "stock_nm": 760,
           "stage1_nm": 820
         },
         " xDrive25d 231hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 231,
           "stage1_hp": 270,
           "stock_nm": 500,
           "stage1_nm": 550
         },
         " xDrive30d 265hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 265,
           "stage1_hp": 310,
           "stock_nm": 620,
           "stage1_nm": 720
         },
         " xDrive30d 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 330,
           "stock_nm": 650,
           "stage1_nm": 720
         },
         " xDrive40d 340hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 340,
           "stage1_hp": 380,
           "stock_nm": 700,
@@ -11839,7 +11839,7 @@
           "stage1_nm": 580
         },
         " xDrive45e 394hp": {
-          "fuel": "petrol",
+          "fuel": "hybrid",
           "stock_hp": 394,
           "stage1_hp": 500,
           "stock_nm": 600,
@@ -11864,14 +11864,14 @@
           "stage1_nm": 800
         },
         " E70 - 5.0D 381hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 381,
           "stage1_hp": 420,
           "stock_nm": 740,
           "stage1_nm": 800
         },
         " F15 - 5.0D 381hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 381,
           "stage1_hp": 420,
           "stock_nm": 740,
@@ -11903,28 +11903,28 @@
     "X6": {
       " E71 - 2008 - 2014": {
         " 3.0D 211hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 211,
           "stage1_hp": 280,
           "stock_nm": 520,
           "stage1_nm": 600
         },
         " 3.0D 235hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 235,
           "stage1_hp": 300,
           "stock_nm": 520,
           "stage1_nm": 620
         },
         " 3.0D 245hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 245,
           "stage1_hp": 300,
           "stock_nm": 520,
           "stage1_nm": 620
         },
         " 3.5D 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 340,
           "stock_nm": 580,
@@ -11938,7 +11938,7 @@
           "stage1_nm": 520
         },
         " 4.0D 306hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 306,
           "stage1_hp": 350,
           "stock_nm": 600,
@@ -11959,7 +11959,7 @@
           "stage1_nm": 860
         },
         " M 5.0D 381hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 381,
           "stage1_hp": 420,
           "stock_nm": 740,
@@ -11975,14 +11975,14 @@
       },
       " F16 - 2014 - 2018": {
         " 3.0D 211hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 211,
           "stage1_hp": 310,
           "stock_nm": 560,
           "stage1_nm": 650
         },
         " 3.0D 258hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 258,
           "stage1_hp": 310,
           "stock_nm": 560,
@@ -11996,7 +11996,7 @@
           "stage1_nm": 520
         },
         " 4.0D 313hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 313,
           "stage1_hp": 365,
           "stock_nm": 630,
@@ -12024,7 +12024,7 @@
           "stage1_nm": 800
         },
         " M50d 381hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 381,
           "stage1_hp": 420,
           "stock_nm": 740,
@@ -12040,28 +12040,28 @@
           "stage1_nm": 880
         },
         " xDrive M50d 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 430,
           "stock_nm": 760,
           "stage1_nm": 820
         },
         " xDrive30d 265hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 265,
           "stage1_hp": 310,
           "stock_nm": 620,
           "stage1_nm": 720
         },
         " xDrive30d 286hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 286,
           "stage1_hp": 330,
           "stock_nm": 650,
           "stage1_nm": 720
         },
         " xDrive40d 340hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 340,
           "stage1_hp": 400,
           "stock_nm": 700,
@@ -12086,7 +12086,7 @@
           "stage1_nm": 800
         },
         " F16 - 5.0D 381hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 381,
           "stage1_hp": 420,
           "stock_nm": 740,
@@ -12125,21 +12125,21 @@
           "stage1_nm": 880
         },
         " xDrive M50d 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 430,
           "stock_nm": 760,
           "stage1_nm": 820
         },
         " xDrive30d 265hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 265,
           "stage1_hp": 310,
           "stock_nm": 620,
           "stage1_nm": 720
         },
         " xDrive40d 340hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 340,
           "stage1_hp": 380,
           "stock_nm": 700,
