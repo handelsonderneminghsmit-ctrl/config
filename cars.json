@@ -55762,14 +55762,14 @@
           "stage1_nm": 300
         },
         " 1.9 TiD 120hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 120,
           "stage1_hp": 150,
           "stock_nm": 280,
           "stage1_nm": 340
         },
         " 1.9 TiD 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 320,
@@ -55820,21 +55820,21 @@
           "stage1_nm": 310
         },
         " 1.9 TTiD 180hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 180,
           "stage1_hp": 220,
           "stock_nm": 400,
           "stage1_nm": 480
         },
         " 1.9 TiD 120hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 120,
           "stage1_hp": 150,
           "stock_nm": 280,
           "stage1_nm": 340
         },
         " 1.9 TiD 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 185,
           "stock_nm": 320,
@@ -55878,21 +55878,21 @@
           "stage1_nm": 300
         },
         " 1.9 TTiD 130hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 130,
           "stage1_hp": 160,
           "stock_nm": 320,
           "stage1_nm": 380
         },
         " 1.9 TTiD 160hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 160,
           "stage1_hp": 190,
           "stock_nm": 360,
           "stage1_nm": 420
         },
         " 1.9 TTiD 180hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 180,
           "stage1_hp": 220,
           "stock_nm": 400,
@@ -56000,7 +56000,7 @@
           "stage1_nm": 410
         },
         " 3.0 TiD 176hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 176,
           "stage1_hp": 208,
           "stock_nm": 350,
@@ -56016,7 +56016,7 @@
       },
       " 2005 - 2010": {
         " 1.9 TiD 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 190,
           "stock_nm": 320,
@@ -56060,14 +56060,14 @@
           "stage1_nm": 300
         },
         " 2.0 TTiD 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 225,
           "stock_nm": 400,
           "stage1_nm": 480
         },
         " 2.0 TiD 160hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 160,
           "stage1_hp": 190,
           "stock_nm": 350,
@@ -56088,7 +56088,7 @@
           "stage1_nm": 470
         },
         " 3.0 TID V6 177hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 177,
           "stage1_hp": 208,
           "stock_nm": 350,
@@ -56119,70 +56119,70 @@
     "P-Serie": {
       " All": {
         " 230": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 230,
           "stage1_hp": 265,
           "stock_nm": 1050,
           "stage1_nm": 1210
         },
         " 270": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 270,
           "stage1_hp": 310,
           "stock_nm": 1250,
           "stage1_nm": 1440
         },
         " 280": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 280,
           "stage1_hp": 302,
           "stock_nm": 1400,
           "stage1_nm": 1520
         },
         " 310": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 310,
           "stage1_hp": 355,
           "stock_nm": 1550,
           "stage1_nm": 1785
         },
         " 340": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 340,
           "stage1_hp": 390,
           "stock_nm": 1700,
           "stage1_nm": 1955
         },
         " 360": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 360,
           "stage1_hp": 389,
           "stock_nm": 1900,
           "stage1_nm": 2150
         },
         " 380": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 380,
           "stage1_hp": 435,
           "stock_nm": 1900,
           "stage1_nm": 2185
         },
         " 410": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 410,
           "stage1_hp": 480,
           "stock_nm": 2150,
           "stage1_nm": 2550
         },
         " 420": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 420,
           "stage1_hp": 485,
           "stock_nm": 2100,
           "stage1_nm": 2415
         },
         " 450": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 450,
           "stage1_hp": 510,
           "stock_nm": 2350,
@@ -56193,112 +56193,112 @@
     "R-Serie": {
       " All": {
         " 230": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 230,
           "stage1_hp": 265,
           "stock_nm": 1050,
           "stage1_nm": 2110
         },
         " 270": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 270,
           "stage1_hp": 310,
           "stock_nm": 1250,
           "stage1_nm": 1410
         },
         " 310": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 310,
           "stage1_hp": 355,
           "stock_nm": 1550,
           "stage1_nm": 1785
         },
         " 340": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 340,
           "stage1_hp": 390,
           "stock_nm": 1700,
           "stage1_nm": 1955
         },
         " 380": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 380,
           "stage1_hp": 450,
           "stock_nm": 1900,
           "stage1_nm": 2185
         },
         " 420": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 420,
           "stage1_hp": 500,
           "stock_nm": 2100,
           "stage1_nm": 2460
         },
         " 440": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 475,
           "stock_nm": 2300,
           "stage1_nm": 2600
         },
         " 450": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 450,
           "stage1_hp": 510,
           "stock_nm": 2350,
           "stage1_nm": 2750
         },
         " 470": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 470,
           "stage1_hp": 560,
           "stock_nm": 2200,
           "stage1_nm": 2650
         },
         " 480": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 560,
           "stock_nm": 2250,
           "stage1_nm": 2670
         },
         " 500": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 500,
           "stage1_hp": 595,
           "stock_nm": 2400,
           "stage1_nm": 2850
         },
         " 520": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 520,
           "stage1_hp": 580,
           "stock_nm": 2700,
           "stage1_nm": 3100
         },
         " 560": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 560,
           "stage1_hp": 655,
           "stock_nm": 2700,
           "stage1_nm": 3130
         },
         " 580": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 580,
           "stage1_hp": 670,
           "stock_nm": 2750,
           "stage1_nm": 3181
         },
         " 620": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 620,
           "stage1_hp": 670,
           "stock_nm": 3000,
           "stage1_nm": 3380
         },
         " 730": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 730,
           "stage1_hp": 850,
           "stock_nm": 3600,
