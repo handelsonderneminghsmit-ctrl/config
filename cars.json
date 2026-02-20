@@ -34744,56 +34744,56 @@
     "TGA18": {
       " All": {
         " 320hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 320,
           "stage1_hp": 380,
           "stock_nm": 1600,
           "stage1_nm": 1950
         },
         " 350hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 350,
           "stage1_hp": 400,
           "stock_nm": 1800,
           "stage1_nm": 2100
         },
         " 360hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 360,
           "stage1_hp": 420,
           "stock_nm": 1750,
           "stage1_nm": 2050
         },
         " 390hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 390,
           "stage1_hp": 450,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 460,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 430hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 430,
           "stage1_hp": 500,
           "stock_nm": 2100,
           "stage1_nm": 2450
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
@@ -34804,35 +34804,35 @@
     "TGA24": {
       " 1e generatie": {
         " 320hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 320,
           "stage1_hp": 380,
           "stock_nm": 1600,
           "stage1_nm": 1950
         },
         " 360hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 360,
           "stage1_hp": 420,
           "stock_nm": 1750,
           "stage1_nm": 2050
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
           "stage1_nm": 2650
         },
         " 500hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 500,
           "stage1_hp": 560,
           "stock_nm": 1900,
@@ -34843,56 +34843,56 @@
     "TGA26": {
       " 1e generatie": {
         " 320hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 320,
           "stage1_hp": 380,
           "stock_nm": 1600,
           "stage1_nm": 1950
         },
         " 350hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 350,
           "stage1_hp": 400,
           "stock_nm": 1800,
           "stage1_nm": 2100
         },
         " 360hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 360,
           "stage1_hp": 420,
           "stock_nm": 1750,
           "stage1_nm": 2050
         },
         " 390hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 390,
           "stage1_hp": 450,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 460,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 430hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 430,
           "stage1_hp": 500,
           "stock_nm": 2100,
           "stage1_nm": 2450
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
@@ -34903,28 +34903,28 @@
     "TGA32": {
       " 1e generatie": {
         " 360hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 360,
           "stage1_hp": 420,
           "stock_nm": 1750,
           "stage1_nm": 2050
         },
         " 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 460,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
@@ -34935,49 +34935,49 @@
     "TGA33": {
       " 1e generatie": {
         " 350hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 350,
           "stage1_hp": 400,
           "stock_nm": 1800,
           "stage1_nm": 2100
         },
         " 360hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 360,
           "stage1_hp": 420,
           "stock_nm": 1750,
           "stage1_nm": 2050
         },
         " 390hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 390,
           "stage1_hp": 450,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 400": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 460,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 430hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 430,
           "stage1_hp": 500,
           "stock_nm": 2100,
           "stage1_nm": 2450
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
@@ -34988,28 +34988,28 @@
     "TGA35": {
       " 1e generatie": {
         " 360hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 360,
           "stage1_hp": 420,
           "stock_nm": 1750,
           "stage1_nm": 2050
         },
         " 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 460,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
@@ -35020,21 +35020,21 @@
     "TGA39": {
       " 1e generatie": {
         " 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 460,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
@@ -35045,35 +35045,35 @@
     "TGA40": {
       " 1e generatie": {
         " 390hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 390,
           "stage1_hp": 450,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 460,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 430hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 430,
           "stage1_hp": 500,
           "stock_nm": 2100,
           "stage1_nm": 2450
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
@@ -35084,42 +35084,42 @@
     "TGA41": {
       " 1e generatie": {
         " 350hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 350,
           "stage1_hp": 400,
           "stock_nm": 1800,
           "stage1_nm": 2100
         },
         " 360hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 360,
           "stage1_hp": 420,
           "stock_nm": 1750,
           "stage1_nm": 2050
         },
         " 390hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 390,
           "stage1_hp": 450,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 400hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 400,
           "stage1_hp": 460,
           "stock_nm": 1900,
           "stage1_nm": 2250
         },
         " 440hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 440,
           "stage1_hp": 510,
           "stock_nm": 2100,
           "stage1_nm": 2500
         },
         " 480hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 480,
           "stage1_hp": 550,
           "stock_nm": 2300,
@@ -35162,56 +35162,56 @@
     "TGL": {
       " 1e generatie": {
         " 12 180hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 180,
           "stage1_hp": 220,
           "stock_nm": 700,
           "stage1_nm": 850
         },
         " 12 206hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 206,
           "stage1_hp": 250,
           "stock_nm": 830,
           "stage1_nm": 1000
         },
         " 12 240hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 240,
           "stage1_hp": 280,
           "stock_nm": 925,
           "stage1_nm": 1100
         },
         " 7 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 180,
           "stock_nm": 570,
           "stage1_nm": 690
         },
         " 7 180hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 180,
           "stage1_hp": 220,
           "stock_nm": 700,
           "stage1_nm": 850
         },
         " 8 180hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 180,
           "stage1_hp": 220,
           "stock_nm": 700,
           "stage1_nm": 850
         },
         " 8 206hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 206,
           "stage1_hp": 250,
           "stock_nm": 830,
           "stage1_nm": 1000
         },
         " 8 240hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 240,
           "stage1_hp": 280,
           "stock_nm": 925,
@@ -35222,56 +35222,56 @@
     "TGM": {
       " 1e generatie": {
         " 13 240hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 240,
           "stage1_hp": 280,
           "stock_nm": 925,
           "stage1_nm": 1150
         },
         " 13 280hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 280,
           "stage1_hp": 320,
           "stock_nm": 1100,
           "stage1_nm": 1300
         },
         " 15 240hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 240,
           "stage1_hp": 280,
           "stock_nm": 925,
           "stage1_nm": 1150
         },
         " 15 280hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 280,
           "stage1_hp": 320,
           "stock_nm": 1100,
           "stage1_nm": 1300
         },
         " 18 240hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 240,
           "stage1_hp": 280,
           "stock_nm": 925,
           "stage1_nm": 1150
         },
         " 18 280hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 280,
           "stage1_hp": 320,
           "stock_nm": 1100,
           "stage1_nm": 1300
         },
         " 26-330 280hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 280,
           "stage1_hp": 330,
           "stock_nm": 1100,
           "stage1_nm": 1350
         },
         " 26-330 326hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 326,
           "stage1_hp": 390,
           "stock_nm": 1250,
@@ -35548,7 +35548,7 @@
           "stage1_nm": 600
         },
         " 3.0D V6 275hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 275,
           "stage1_hp": 305,
           "stock_nm": 600,
@@ -35571,14 +35571,14 @@
           "stage1_nm": 600
         },
         " 3.0D V6 250hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 250,
           "stage1_hp": 305,
           "stock_nm": 600,
           "stage1_nm": 660
         },
         " 3.0D V6 275hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 275,
           "stage1_hp": 305,
           "stock_nm": 600,
@@ -35638,14 +35638,14 @@
           "stage1_nm": 700
         },
         " 3.0D V6 250hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 250,
           "stage1_hp": 305,
           "stock_nm": 600,
           "stage1_nm": 660
         },
         " 3.0D V6 275hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 275,
           "stage1_hp": 305,
           "stock_nm": 600,
@@ -35710,7 +35710,7 @@
           "stage1_nm": 600
         },
         " 3.0D V6 275hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 275,
           "stage1_hp": 305,
           "stock_nm": 600,
@@ -35788,7 +35788,7 @@
           "stage1_nm": 150
         },
         " 1.6 CD 90hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 90,
           "stage1_hp": 120,
           "stock_nm": 210,
@@ -35797,7 +35797,7 @@
       },
       " 2014 - 2018": {
         " 1.5 SkyActiv-D 105hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 105,
           "stage1_hp": 130,
           "stock_nm": 220,
@@ -35827,7 +35827,7 @@
       },
       " 2019 ->": {
         " 1.5 SkyActiv-D 105hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 105,
           "stage1_hp": 130,
           "stock_nm": 250,
@@ -35940,7 +35940,7 @@
       },
       " 2013 - 2015": {
         " 1.5 SkyActiv-D 105hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 105,
           "stage1_hp": 130,
           "stock_nm": 270,
@@ -35961,7 +35961,7 @@
           "stage1_nm": 220
         },
         " 2.2 SkyActiv-D 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 210,
           "stock_nm": 380,
@@ -35970,7 +35970,7 @@
       },
       " 2016 - 2018": {
         " 1.5 Skyactiv-D 105hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 105,
           "stage1_hp": 130,
           "stock_nm": 270,
@@ -35998,7 +35998,7 @@
           "stage1_nm": 220
         },
         " 2.2 SkyActiv-D 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 175,
           "stock_nm": 380,
@@ -36007,7 +36007,7 @@
       },
       " 2019 ->": {
         " 1.8 Skyactiv-D 115hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 115,
           "stage1_hp": 145,
           "stock_nm": 270,
@@ -36187,14 +36187,14 @@
           "stage1_nm": 220
         },
         " 2.2 SkyActiv-D 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 200,
           "stock_nm": 380,
           "stage1_nm": 460
         },
         " 2.2 SkyActiv-D 175hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 175,
           "stage1_hp": 200,
           "stock_nm": 420,
@@ -36224,7 +36224,7 @@
           "stage1_nm": 460
         },
         " 2.2 SkyActiv-D 184hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 184,
           "stage1_hp": 210,
           "stock_nm": 445,
@@ -36267,7 +36267,7 @@
     "CX-3": {
       " 2015 - 2018": {
         " 1.5 SkyActiv-D 105hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 105,
           "stage1_hp": 130,
           "stock_nm": 270,
@@ -36297,7 +36297,7 @@
       },
       " 2018 ->": {
         " 1.8 SkyActiv-D 115hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 115,
           "stage1_hp": 145,
           "stock_nm": 270,
@@ -36322,7 +36322,7 @@
     "CX-30": {
       " 2019 ->": {
         " 1.8 Skyactiv-D 115hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 115,
           "stage1_hp": 145,
           "stock_nm": 270,
@@ -36382,14 +36382,14 @@
           "stage1_nm": 220
         },
         " 2.2 SkyActiv-D 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 210,
           "stock_nm": 380,
           "stage1_nm": 480
         },
         " 2.2 SkyActiv-D 175hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 175,
           "stage1_hp": 210,
           "stock_nm": 420,
@@ -36419,21 +36419,21 @@
           "stage1_nm": 220
         },
         " 2.2 SkyActiv-D 150hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 150,
           "stage1_hp": 200,
           "stock_nm": 380,
           "stage1_nm": 460
         },
         " 2.2 SkyActiv-D 175hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 175,
           "stage1_hp": 200,
           "stock_nm": 420,
           "stage1_nm": 460
         },
         " 2.2 SkyActiv-D 184hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 184,
           "stage1_hp": 200,
           "stock_nm": 445,
@@ -36512,7 +36512,7 @@
     "CX-8": {
       " 2017 ->": {
         " 2.2 SkyActiv-D 190hp": {
-          "fuel": "petrol",
+          "fuel": "diesel",
           "stock_hp": 190,
           "stage1_hp": 220,
           "stock_nm": 450,
@@ -36626,412 +36626,7 @@
       }
     }
   },
-  "Mc Cormick": {
-    "MC": {
-      " All": {
-        " 105 - 102hp": {
-          "fuel": "petrol",
-          "stock_hp": 102,
-          "stage1_hp": 130,
-          "stock_nm": 415,
-          "stage1_nm": 500
-        },
-        " 115 - 118hp": {
-          "fuel": "petrol",
-          "stock_hp": 118,
-          "stage1_hp": 150,
-          "stock_nm": 494,
-          "stage1_nm": 595
-        },
-        " 115 - CR - 125hp": {
-          "fuel": "petrol",
-          "stock_hp": 125,
-          "stage1_hp": 160,
-          "stock_nm": 470,
-          "stage1_nm": 620
-        },
-        " 120 - 116hp": {
-          "fuel": "petrol",
-          "stock_hp": 116,
-          "stage1_hp": 145,
-          "stock_nm": 487,
-          "stage1_nm": 585
-        },
-        " 130 - CR- 125hp": {
-          "fuel": "petrol",
-          "stock_hp": 125,
-          "stage1_hp": 160,
-          "stock_nm": 470,
-          "stage1_nm": 620
-        },
-        " 135 - 132hp": {
-          "fuel": "petrol",
-          "stock_hp": 132,
-          "stage1_hp": 165,
-          "stock_nm": 555,
-          "stage1_nm": 665
-        },
-        " 670 - 6.7 - 166hp": {
-          "fuel": "petrol",
-          "stock_hp": 166,
-          "stage1_hp": 196,
-          "stock_nm": 726,
-          "stage1_nm": 1001
-        },
-        " 95 - 90hp": {
-          "fuel": "petrol",
-          "stock_hp": 90,
-          "stage1_hp": 115,
-          "stock_nm": 387,
-          "stage1_nm": 465
-        }
-      }
-    },
-    "MTX": {
-      " All": {
-        " 120 - 118hp": {
-          "fuel": "petrol",
-          "stock_hp": 118,
-          "stage1_hp": 150,
-          "stock_nm": 520,
-          "stage1_nm": 625
-        },
-        " 135 - 131hp": {
-          "fuel": "petrol",
-          "stock_hp": 131,
-          "stage1_hp": 165,
-          "stock_nm": 535,
-          "stage1_nm": 640
-        },
-        " 150 - 152hp": {
-          "fuel": "petrol",
-          "stock_hp": 152,
-          "stage1_hp": 190,
-          "stock_nm": 582,
-          "stage1_nm": 700
-        },
-        " 165 - 161hp": {
-          "fuel": "petrol",
-          "stock_hp": 161,
-          "stage1_hp": 200,
-          "stock_nm": 654,
-          "stage1_nm": 785
-        },
-        " 185 - 182hp": {
-          "fuel": "petrol",
-          "stock_hp": 182,
-          "stage1_hp": 230,
-          "stock_nm": 800,
-          "stage1_nm": 960
-        },
-        " 200 - 194hp": {
-          "fuel": "petrol",
-          "stock_hp": 194,
-          "stage1_hp": 245,
-          "stock_nm": 800,
-          "stage1_nm": 960
-        }
-      }
-    },
-    "TTX": {
-      " All": {
-        " 190 - 6.7 - R6- 180hp": {
-          "fuel": "petrol",
-          "stock_hp": 180,
-          "stage1_hp": 230,
-          "stock_nm": 1,
-          "stage1_nm": 1
-        },
-        " 210 - 6.7 - R6 - 210hp": {
-          "fuel": "petrol",
-          "stock_hp": 210,
-          "stage1_hp": 260,
-          "stock_nm": 1,
-          "stage1_nm": 1
-        },
-        " 230 - 6.7 - R6": {
-          "fuel": "petrol",
-          "stock_hp": 213,
-          "stage1_hp": 265,
-          "stock_nm": 1,
-          "stage1_nm": 1
-        }
-      }
-    },
-    "X4": {
-      " All": {
-        " 20 - 2.9 - 64hp - Tier 4 Final": {
-          "fuel": "petrol",
-          "stock_hp": 64,
-          "stage1_hp": 90,
-          "stock_nm": 244,
-          "stage1_nm": 290
-        },
-        " 30 - 2.9 - 70hp - Tier 4 Final": {
-          "fuel": "petrol",
-          "stock_hp": 70,
-          "stage1_hp": 100,
-          "stock_nm": 271,
-          "stage1_nm": 320
-        },
-        " 35 - 4.4 - 74hp": {
-          "fuel": "petrol",
-          "stock_hp": 74,
-          "stage1_hp": 100,
-          "stock_nm": 261,
-          "stage1_nm": 300
-        },
-        " 40 - 2.9 - 75hp": {
-          "fuel": "petrol",
-          "stock_hp": 75,
-          "stage1_hp": 100,
-          "stock_nm": 300,
-          "stage1_nm": 360
-        },
-        " 50 - 3.6 - 85hp": {
-          "fuel": "petrol",
-          "stock_hp": 85,
-          "stage1_hp": 115,
-          "stock_nm": 358,
-          "stage1_nm": 633
-        },
-        " 60 - 3.6 - 95hp": {
-          "fuel": "petrol",
-          "stock_hp": 95,
-          "stage1_hp": 125,
-          "stock_nm": 397,
-          "stage1_nm": 672
-        },
-        " 70 - 3.6 - 101hp": {
-          "fuel": "petrol",
-          "stock_hp": 101,
-          "stage1_hp": 131,
-          "stock_nm": 420,
-          "stage1_nm": 695
-        }
-      }
-    },
-    "X5": {
-      " All": {
-        " 20 - 3.4 - 85hp - Tier4i": {
-          "fuel": "petrol",
-          "stock_hp": 85,
-          "stage1_hp": 105,
-          "stock_nm": 354,
-          "stage1_nm": 405
-        },
-        " 30 - 3.4 - 95hp - Tier4i": {
-          "fuel": "petrol",
-          "stock_hp": 95,
-          "stage1_hp": 120,
-          "stock_nm": 395,
-          "stage1_nm": 470
-        },
-        " 40 - 3.4 - 102hp - Tier4i": {
-          "fuel": "petrol",
-          "stock_hp": 102,
-          "stage1_hp": 130,
-          "stock_nm": 420,
-          "stage1_nm": 500
-        },
-        " 50 - 3.4 - 113hp - Tier4i": {
-          "fuel": "petrol",
-          "stock_hp": 113,
-          "stage1_hp": 140,
-          "stock_nm": 450,
-          "stage1_nm": 550
-        }
-      }
-    },
-    "X50": {
-      " All": {
-        " 20 - 3.4 - 85hp": {
-          "fuel": "petrol",
-          "stock_hp": 85,
-          "stage1_hp": 115,
-          "stock_nm": 354,
-          "stage1_nm": 629
-        },
-        " 20m - 3.4 - 85hp": {
-          "fuel": "petrol",
-          "stock_hp": 85,
-          "stage1_hp": 115,
-          "stock_nm": 354,
-          "stage1_nm": 629
-        },
-        " 30 - 3.4 - 95hp": {
-          "fuel": "petrol",
-          "stock_hp": 95,
-          "stage1_hp": 125,
-          "stock_nm": 395,
-          "stage1_nm": 670
-        },
-        " 30m - 3.4 - 95hp": {
-          "fuel": "petrol",
-          "stock_hp": 95,
-          "stage1_hp": 125,
-          "stock_nm": 395,
-          "stage1_nm": 670
-        },
-        " 40 - 3.4 - 102hp": {
-          "fuel": "petrol",
-          "stock_hp": 102,
-          "stage1_hp": 132,
-          "stock_nm": 420,
-          "stage1_nm": 695
-        },
-        " 40m - 3.4 - 102hp": {
-          "fuel": "petrol",
-          "stock_hp": 102,
-          "stage1_hp": 132,
-          "stock_nm": 420,
-          "stage1_nm": 695
-        },
-        " 50 - 3.4 - 113hp": {
-          "fuel": "petrol",
-          "stock_hp": 113,
-          "stage1_hp": 143,
-          "stock_nm": 450,
-          "stage1_nm": 725
-        }
-      }
-    },
-    "X6": {
-      " All": {
-        " 420 - 4.5 - 111hp": {
-          "fuel": "petrol",
-          "stock_hp": 111,
-          "stage1_hp": 141,
-          "stock_nm": 498,
-          "stage1_nm": 773
-        },
-        " 430 - 4.5 121hp": {
-          "fuel": "petrol",
-          "stock_hp": 121,
-          "stage1_hp": 151,
-          "stock_nm": 549,
-          "stage1_nm": 824
-        }
-      }
-    },
-    "X7": {
-      " All": {
-        " 440 - 4.5 - 131hp": {
-          "fuel": "petrol",
-          "stock_hp": 131,
-          "stage1_hp": 161,
-          "stock_nm": 590,
-          "stage1_nm": 865
-        },
-        " 450 - 4.5 - 150hp": {
-          "fuel": "petrol",
-          "stock_hp": 150,
-          "stage1_hp": 180,
-          "stock_nm": 676,
-          "stage1_nm": 951
-        },
-        " 460 - 4.5 - 160hp": {
-          "fuel": "petrol",
-          "stock_hp": 160,
-          "stage1_hp": 190,
-          "stock_nm": 680,
-          "stage1_nm": 955
-        },
-        " 660 - 6.7 - 151hp": {
-          "fuel": "petrol",
-          "stock_hp": 151,
-          "stage1_hp": 181,
-          "stock_nm": 632,
-          "stage1_nm": 907
-        },
-        " 680 - 6.7 - 175hp": {
-          "fuel": "petrol",
-          "stock_hp": 175,
-          "stage1_hp": 205,
-          "stock_nm": 810,
-          "stage1_nm": 1085
-        }
-      }
-    },
-    "XTX": {
-      " All": {
-        " 145 - CR- 115hp": {
-          "fuel": "petrol",
-          "stock_hp": 115,
-          "stage1_hp": 135,
-          "stock_nm": 1,
-          "stage1_nm": 1
-        },
-        " 185 E - 198hp": {
-          "fuel": "petrol",
-          "stock_hp": 198,
-          "stage1_hp": 250,
-          "stock_nm": 700,
-          "stage1_nm": 840
-        },
-        " 185 M - 173hp": {
-          "fuel": "petrol",
-          "stock_hp": 173,
-          "stage1_hp": 215,
-          "stock_nm": 700,
-          "stage1_nm": 840
-        },
-        " 200 E - 213hp": {
-          "fuel": "petrol",
-          "stock_hp": 213,
-          "stage1_hp": 265,
-          "stock_nm": 800,
-          "stage1_nm": 960
-        },
-        " 200 M - 197hp": {
-          "fuel": "petrol",
-          "stock_hp": 197,
-          "stage1_hp": 245,
-          "stock_nm": 800,
-          "stage1_nm": 960
-        },
-        " 215 E - 217hp": {
-          "fuel": "petrol",
-          "stock_hp": 217,
-          "stage1_hp": 270,
-          "stock_nm": 800,
-          "stage1_nm": 960
-        },
-        " 215 M - 204hp": {
-          "fuel": "petrol",
-          "stock_hp": 204,
-          "stage1_hp": 255,
-          "stock_nm": 800,
-          "stage1_nm": 960
-        }
-      }
-    },
-    "ZTX": {
-      " All": {
-        " 230 - 230hp": {
-          "fuel": "petrol",
-          "stock_hp": 230,
-          "stage1_hp": 290,
-          "stock_nm": 900,
-          "stage1_nm": 1080
-        },
-        " 260 - 260hp": {
-          "fuel": "petrol",
-          "stock_hp": 260,
-          "stage1_hp": 325,
-          "stock_nm": 1085,
-          "stage1_nm": 1300
-        },
-        " 280 - 280hp": {
-          "fuel": "petrol",
-          "stock_hp": 280,
-          "stage1_hp": 350,
-          "stock_nm": 1180,
-          "stage1_nm": 1415
-        }
-      }
-    }
-  },
+
   "McLaren": {
     "540C": {
       " All": {
