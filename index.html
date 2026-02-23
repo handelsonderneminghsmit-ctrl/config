@@ -482,32 +482,28 @@
     position: relative;
   }
 
-  /* Stock fill */
+  /* Stock fill — red, fills up to stock value */
   .bar-stock {
     position: absolute;
     left: 0; top: 0; bottom: 0;
-    background: var(--border-hi);
-    border-radius: 2px;
-    transition: width .6s cubic-bezier(.22,1,.36,1);
-  }
-
-  /* Stage 1 fill (animated on top) */
-  .bar-stage {
-    position: absolute;
-    left: 0; top: 0; bottom: 0;
     background: linear-gradient(90deg, var(--red) 0%, var(--red-hot) 100%);
-    border-radius: 2px;
-    transition: width .8s cubic-bezier(.22,1,.36,1) .1s;
+    border-radius: 2px 0 0 2px;
+    transition: width .6s cubic-bezier(.22,1,.36,1);
+    z-index: 1;
   }
 
-  /* Gain segment (the extra bit) */
+  /* Stage 1 fill — unused now, kept for compat */
+  .bar-stage { display: none; }
+
+  /* Gain segment — green, sits right after the red stock bar */
   .bar-gain {
     position: absolute;
     top: 0; bottom: 0;
     background: var(--success);
     border-radius: 0 2px 2px 0;
-    transition: left .8s cubic-bezier(.22,1,.36,1) .1s, width .8s cubic-bezier(.22,1,.36,1) .1s;
-    box-shadow: 0 0 6px rgba(32,201,88,.4);
+    transition: left .6s cubic-bezier(.22,1,.36,1), width .6s cubic-bezier(.22,1,.36,1) .05s;
+    box-shadow: 0 0 8px rgba(32,201,88,.5);
+    z-index: 2;
   }
 
   /* ── CTA ROW ── */
@@ -987,27 +983,24 @@ function showResult() {
 }
 
 function animateBars(e) {
-  // We scale to 120% of stage1 so there's always breathing room
+  // Scale to 120% of stage1 so bars never overflow
   const maxPk = e.stage1_hp * 1.2;
   const maxNm = e.stage1_nm * 1.2;
 
   const stockPkPct = (e.stock_hp  / maxPk * 100).toFixed(1);
-  const stagePkPct = (e.stage1_hp / maxPk * 100).toFixed(1);
   const gainPkPct  = ((e.stage1_hp - e.stock_hp) / maxPk * 100).toFixed(1);
 
   const stockNmPct = (e.stock_nm  / maxNm * 100).toFixed(1);
-  const stageNmPct = (e.stage1_nm / maxNm * 100).toFixed(1);
   const gainNmPct  = ((e.stage1_nm - e.stock_nm) / maxNm * 100).toFixed(1);
 
-  // PK bar: red fills to stage1, green gain segment sits on top from stock→stage1
-  document.getElementById('bar-stage-pk').style.width  = stagePkPct + '%';
-  document.getElementById('bar-gain-pk').style.left    = stockPkPct + '%';
-  document.getElementById('bar-gain-pk').style.width   = gainPkPct  + '%';
+  // Red bar = stock width; green bar starts right after red, width = gain
+  document.getElementById('bar-stock-pk').style.width = stockPkPct + '%';
+  document.getElementById('bar-gain-pk').style.left   = stockPkPct + '%';
+  document.getElementById('bar-gain-pk').style.width  = gainPkPct  + '%';
 
-  // NM bar
-  document.getElementById('bar-stage-nm').style.width  = stageNmPct + '%';
-  document.getElementById('bar-gain-nm').style.left    = stockNmPct + '%';
-  document.getElementById('bar-gain-nm').style.width   = gainNmPct  + '%';
+  document.getElementById('bar-stock-nm').style.width = stockNmPct + '%';
+  document.getElementById('bar-gain-nm').style.left   = stockNmPct + '%';
+  document.getElementById('bar-gain-nm').style.width  = gainNmPct  + '%';
 }
 
 function sendRequest() {
