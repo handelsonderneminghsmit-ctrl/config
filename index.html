@@ -33,7 +33,6 @@
     color: var(--text);
   }
 
-  /* ── WRAPPER ─────────────────────────────── */
   .configurator {
     width: 100%;
     background: var(--panel);
@@ -41,7 +40,6 @@
     overflow: hidden;
   }
 
-  /* Red diagonal slash — echoes the logo */
   .configurator::before {
     content: '';
     position: absolute;
@@ -51,7 +49,6 @@
     pointer-events: none;
     z-index: 0;
   }
-  /* Subtle noise texture */
   .configurator::after {
     content: '';
     position: absolute;
@@ -61,13 +58,11 @@
     z-index: 0;
   }
 
-  /* ── TOP RED STRIPE ──────────────────────── */
   .red-stripe {
     height: 3px;
     background: linear-gradient(90deg, var(--red) 0%, var(--red-hot) 60%, transparent 100%);
   }
 
-  /* ── HEADER ROW ──────────────────────────── */
   .cfg-header {
     position: relative;
     z-index: 1;
@@ -83,7 +78,6 @@
     gap: 14px;
   }
 
-  /* Big red slash mark */
   .slash-mark {
     width: 6px;
     height: 48px;
@@ -125,7 +119,6 @@
     white-space: nowrap;
   }
 
-  /* ── STEP TRACK ──────────────────────────── */
   .step-track {
     position: relative;
     z-index: 1;
@@ -189,7 +182,6 @@
     min-width: 16px;
   }
 
-  /* ── DROPDOWNS ROW ───────────────────────── */
   .fields-row {
     position: relative;
     z-index: 1;
@@ -218,7 +210,6 @@
   .field-cell.unlocked:hover {
     background: #13161e;
   }
-  /* active cell gets a red top border */
   .field-cell.active-field::before {
     content: '';
     position: absolute;
@@ -292,7 +283,6 @@
   }
   select:disabled { cursor: not-allowed; }
 
-  /* ── LOADING STATE ───────────────────────── */
   .loading-msg {
     display: none;
     position: relative;
@@ -315,7 +305,7 @@
   }
   .error-msg.show { display: block; }
 
-  /* ── RESULT PANEL ────────────────────────── */
+  /* ── RESULT PANEL ── */
   .result-panel {
     display: none;
     position: relative; z-index: 1;
@@ -323,6 +313,7 @@
     background: #0f1118;
     border: 1px solid var(--border);
     border-top: 2px solid var(--red);
+    flex-direction: column;
     animation: slideDown .3s ease;
   }
   .result-panel.show { display: flex; }
@@ -332,10 +323,16 @@
     to   { opacity:1; transform: translateY(0); }
   }
 
+  /* Top row: car info + 4 stats */
+  .result-top {
+    display: flex;
+  }
+
   .result-main {
     flex: 1;
     padding: 18px 24px;
     border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
   }
 
   .result-eyebrow {
@@ -378,12 +375,13 @@
     border-radius: 2px;
   }
 
-  /* Stats grid */
+  /* Stats grid — 4 columns top row */
   .stats-grid {
     flex-shrink: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border-left: none;
+    border-bottom: 1px solid var(--border);
   }
 
   .stat-box {
@@ -393,6 +391,9 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+  }
+  .stat-box.new {
+    background: rgba(255,255,255,.02);
   }
   .stat-box.gain {
     background: var(--success-dim);
@@ -414,8 +415,8 @@
     line-height: 1;
     color: var(--muted2);
   }
-  .stat-box.new .stat-val  { color: var(--text); }
-  .stat-box.gain .stat-val { color: var(--success); }
+  .stat-box.new  .stat-val  { color: var(--text); }
+  .stat-box.gain .stat-val  { color: var(--success); }
 
   .stat-lbl {
     font-size: .6rem;
@@ -425,7 +426,91 @@
     margin-top: 3px;
   }
 
-  /* ── CTA ROW ─────────────────────────────── */
+  /* ── GAIN BAR ROW ── */
+  .gain-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: none;
+  }
+
+  .gain-bar-cell {
+    padding: 14px 20px 16px;
+    border-left: 1px solid var(--border);
+    position: relative;
+  }
+  .gain-bar-cell:first-child { border-left: none; }
+
+  .gain-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+  }
+  .gain-bar-label {
+    font-size: .6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    color: var(--muted);
+  }
+  .gain-bar-numbers {
+    font-size: .72rem;
+    font-weight: 700;
+    color: var(--muted2);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .gain-bar-numbers .before { color: var(--muted); }
+  .gain-bar-numbers .arrow  { color: var(--border-hi); font-size: .6rem; }
+  .gain-bar-numbers .after  { color: var(--text); }
+  .gain-bar-numbers .delta  {
+    color: var(--success);
+    font-size: .68rem;
+    background: var(--success-dim);
+    border: 1px solid rgba(32,201,88,.2);
+    padding: 1px 6px;
+    border-radius: 2px;
+  }
+
+  /* The actual bar */
+  .bar-track {
+    height: 6px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Stock fill */
+  .bar-stock {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: var(--border-hi);
+    border-radius: 2px;
+    transition: width .6s cubic-bezier(.22,1,.36,1);
+  }
+
+  /* Stage 1 fill (animated on top) */
+  .bar-stage {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: linear-gradient(90deg, var(--red) 0%, var(--red-hot) 100%);
+    border-radius: 2px;
+    transition: width .8s cubic-bezier(.22,1,.36,1) .1s;
+  }
+
+  /* Gain segment (the extra bit) */
+  .bar-gain {
+    position: absolute;
+    top: 0; bottom: 0;
+    background: var(--success);
+    border-radius: 0 2px 2px 0;
+    transition: left .8s cubic-bezier(.22,1,.36,1) .1s, width .8s cubic-bezier(.22,1,.36,1) .1s;
+    box-shadow: 0 0 6px rgba(32,201,88,.4);
+  }
+
+  /* ── CTA ROW ── */
   .cta-row {
     display: none;
     position: relative; z-index: 1;
@@ -499,14 +584,13 @@
   .foot-note a { color: var(--red-hot); text-decoration: none; }
   .foot-note a:hover { text-decoration: underline; }
 
-  /* ── BOTTOM RED ACCENT LINE ──────────────── */
   .bottom-stripe {
     height: 3px;
     background: linear-gradient(90deg, transparent 0%, var(--red-dim) 40%, var(--red) 100%);
     margin-top: 0;
   }
 
-  /* ── RESPONSIVE ──────────────────────────── */
+  /* ── RESPONSIVE ── */
   @media (max-width: 768px) {
     .cfg-header { padding: 18px 18px 0; }
     .cfg-title  { font-size: 1.5rem; }
@@ -520,14 +604,14 @@
       margin: 14px 18px 0;
     }
 
-    .result-panel {
-      flex-direction: column;
-      margin: 1px 18px 0;
-    }
-    .result-main { border-right: none; border-bottom: 1px solid var(--border); }
-    .stats-grid  { grid-template-columns: repeat(4, 1fr); }
-    .stat-box    { padding: 12px 14px; }
-    .stat-val    { font-size: 1.3rem; }
+    .result-panel { margin: 1px 18px 0; }
+    .result-top   { flex-direction: column; }
+    .result-main  { border-right: none; }
+    .stats-grid   { grid-template-columns: repeat(4, 1fr); }
+    .stat-box     { padding: 12px 14px; }
+    .stat-val     { font-size: 1.3rem; }
+    .gain-row     { grid-template-columns: 1fr; }
+    .gain-bar-cell:first-child { border-bottom: 1px solid var(--border); }
 
     .cta-row { padding: 12px 18px 20px; flex-wrap: wrap; }
     .foot-note { text-align: left; margin-left: 0; order: -1; width: 100%; }
@@ -574,13 +658,11 @@
     </div>
   </div>
 
-  <!-- Loading / error messages -->
   <p class="loading-msg" id="loading-msg">⏳ Data laden…</p>
   <p class="error-msg"   id="error-msg">⚠️ Kon autodata niet laden. Controleer of cars.json beschikbaar is.</p>
 
   <!-- Dropdowns row -->
   <div class="fields-row">
-
     <div class="field-cell" id="f-merk">
       <div class="field-label"><span class="dot"></span>Merk</div>
       <div class="sel-wrap">
@@ -589,7 +671,6 @@
         </select>
       </div>
     </div>
-
     <div class="field-cell" id="f-model">
       <div class="field-label"><span class="dot"></span>Model</div>
       <div class="sel-wrap">
@@ -598,7 +679,6 @@
         </select>
       </div>
     </div>
-
     <div class="field-cell" id="f-jaar">
       <div class="field-label"><span class="dot"></span>Generatie</div>
       <div class="sel-wrap">
@@ -607,7 +687,6 @@
         </select>
       </div>
     </div>
-
     <div class="field-cell" id="f-motor">
       <div class="field-label"><span class="dot"></span>Motor / Vermogen</div>
       <div class="sel-wrap">
@@ -616,33 +695,77 @@
         </select>
       </div>
     </div>
-
   </div>
 
   <!-- Result panel -->
   <div class="result-panel" id="result-panel">
-    <div class="result-main">
-      <div class="result-eyebrow">Uw voertuig</div>
-      <div class="result-car-name" id="r-name">—</div>
-      <div class="result-engine" id="r-engine">—</div>
+
+    <!-- Top row: car info + 4 stat boxes -->
+    <div class="result-top">
+      <div class="result-main">
+        <div class="result-eyebrow">Uw voertuig</div>
+        <div class="result-car-name" id="r-name">—</div>
+        <div class="result-engine" id="r-engine">—</div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-box">
+          <span class="stat-val" id="r-stock-pk">—</span>
+          <span class="stat-lbl">Origineel PK</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-val" id="r-stock-nm">—</span>
+          <span class="stat-lbl">Origineel NM</span>
+        </div>
+        <div class="stat-box new">
+          <span class="stat-val" id="r-stage-pk">—</span>
+          <span class="stat-lbl">Stage 1 PK</span>
+        </div>
+        <div class="stat-box new">
+          <span class="stat-val" id="r-stage-nm">—</span>
+          <span class="stat-lbl">Stage 1 NM</span>
+        </div>
+      </div>
     </div>
-    <div class="stats-grid">
-      <div class="stat-box">
-        <span class="stat-val" id="r-stock-pk">—</span>
-        <span class="stat-lbl">Origineel PK</span>
+
+    <!-- Gain bars row -->
+    <div class="gain-row">
+
+      <!-- PK bar -->
+      <div class="gain-bar-cell">
+        <div class="gain-bar-header">
+          <span class="gain-bar-label">Vermogen (PK)</span>
+          <span class="gain-bar-numbers">
+            <span class="before" id="gb-stock-pk">—</span>
+            <span class="arrow">→</span>
+            <span class="after"  id="gb-stage-pk">—</span>
+            <span class="delta"  id="gb-delta-pk">—</span>
+          </span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-stock" id="bar-stock-pk" style="width:0%"></div>
+          <div class="bar-stage" id="bar-stage-pk" style="width:0%"></div>
+          <div class="bar-gain"  id="bar-gain-pk"  style="left:0%;width:0%"></div>
+        </div>
       </div>
-      <div class="stat-box">
-        <span class="stat-val" id="r-stock-nm">—</span>
-        <span class="stat-lbl">Origineel NM</span>
+
+      <!-- NM bar -->
+      <div class="gain-bar-cell">
+        <div class="gain-bar-header">
+          <span class="gain-bar-label">Koppel (NM)</span>
+          <span class="gain-bar-numbers">
+            <span class="before" id="gb-stock-nm">—</span>
+            <span class="arrow">→</span>
+            <span class="after"  id="gb-stage-nm">—</span>
+            <span class="delta"  id="gb-delta-nm">—</span>
+          </span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-stock" id="bar-stock-nm" style="width:0%"></div>
+          <div class="bar-stage" id="bar-stage-nm" style="width:0%"></div>
+          <div class="bar-gain"  id="bar-gain-nm"  style="left:0%;width:0%"></div>
+        </div>
       </div>
-      <div class="stat-box new">
-        <span class="stat-val" id="r-stage-pk">—</span>
-        <span class="stat-lbl">Stage 1 PK</span>
-      </div>
-      <div class="stat-box new">
-        <span class="stat-val" id="r-stage-nm">—</span>
-        <span class="stat-lbl">Stage 1 NM</span>
-      </div>
+
     </div>
   </div>
 
@@ -651,7 +774,7 @@
     <button class="cta-btn" onclick="sendRequest()">Offerte aanvragen</button>
     <button class="reset-btn" onclick="resetForm()">↺ Opnieuw</button>
     <p class="foot-note">
-      HS Performance
+      HS Performance ·
       <a href="https://api.whatsapp.com/send?phone=31639246636" target="_blank">Direct contact</a>
     </p>
   </div>
@@ -660,28 +783,21 @@
 </div>
 
 <script>
-const FUEL_ORDER  = ['petrol', 'diesel', 'hybrid', 'electric'];
-const FUEL_NL     = { petrol:'Benzine', diesel:'Diesel', hybrid:'Hybride', electric:'Elektrisch' };
-
-// Path to the external data file — adjust if needed
-const DATA_URL = 'cars.json';
+const FUEL_ORDER = ['petrol', 'diesel', 'hybrid', 'electric'];
+const FUEL_NL    = { petrol:'Benzine', diesel:'Diesel', hybrid:'Hybride', electric:'Elektrisch' };
+const DATA_URL   = 'cars.json';
 
 let DB    = null;
 let state = { merk:'', model:'', jaar:'', engineKey:'', engineData: null };
 const t   = s => s.trim();
 
-
 document.addEventListener('DOMContentLoaded', () => {
   const loadingEl = document.getElementById('loading-msg');
   const errorEl   = document.getElementById('error-msg');
-
   loadingEl.classList.add('show');
 
   fetch(DATA_URL)
-    .then(res => {
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return res.json();
-    })
+    .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
     .then(data => {
       loadingEl.classList.remove('show');
       DB = data;
@@ -699,7 +815,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-/* ── Steps ─────────────────────────────────── */
 function setStep(n) {
   for (let i = 1; i <= 4; i++) {
     const el = document.getElementById('si' + i);
@@ -707,16 +822,15 @@ function setStep(n) {
   }
 }
 
-/* ── Field helpers ──────────────────────────── */
 function unlock(id) { document.getElementById(id).classList.add('unlocked'); }
-function lock(id)   {
+function lock(id) {
   document.getElementById(id).classList.remove('unlocked');
   document.getElementById(id).classList.remove('active-field');
 }
 function activeField(id) {
-  ['f-merk','f-model','f-jaar','f-motor'].forEach(fid => {
-    document.getElementById(fid).classList.remove('active-field');
-  });
+  ['f-merk','f-model','f-jaar','f-motor'].forEach(fid =>
+    document.getElementById(fid).classList.remove('active-field')
+  );
   document.getElementById(id).classList.add('active-field');
 }
 
@@ -739,7 +853,6 @@ function rawKey(obj, trimmed) {
   return Object.keys(obj).find(k => t(k) === trimmed);
 }
 
-/* ── Handlers ───────────────────────────────── */
 function onMerk() {
   const v = document.getElementById('sel-merk').value;
   state = { merk:v, model:'', jaar:'', engineKey:'', engineData:null };
@@ -792,7 +905,6 @@ function onJaar() {
     const ry      = rawKey(DB[state.merk][rm], v);
     const engines = DB[state.merk][rm][ry];
 
-    // Group by fuel, sorted by hp within group
     const groups = {};
     Object.entries(engines).forEach(([rk, data]) => {
       const fuel = data.fuel || 'petrol';
@@ -833,7 +945,6 @@ function onMotor() {
   state.engineKey  = v;
   state.engineData = eng[re];
 
-  // Clear active-field on all once complete
   ['f-merk','f-model','f-jaar','f-motor'].forEach(id =>
     document.getElementById(id).classList.remove('active-field')
   );
@@ -842,24 +953,61 @@ function onMotor() {
 }
 
 function showResult() {
-  const e      = state.engineData;
+  const e    = state.engineData;
+  const fuel = FUEL_NL[e.fuel] || e.fuel;
+
   const gainPk = e.stage1_hp - e.stock_hp;
   const gainNm = e.stage1_nm - e.stock_nm;
-  const fuel   = FUEL_NL[e.fuel] || e.fuel;
 
+  // Car info
   document.getElementById('r-name').innerHTML =
     `${state.merk} ${state.model} <span class="yr">${state.jaar}</span>`;
-
   document.getElementById('r-engine').innerHTML =
     `<span class="fuel-badge">${fuel}</span>${state.engineKey}`;
 
+  // Stat boxes
   document.getElementById('r-stock-pk').textContent = e.stock_hp  + ' pk';
   document.getElementById('r-stock-nm').textContent = e.stock_nm  + ' nm';
   document.getElementById('r-stage-pk').textContent = e.stage1_hp + ' pk';
   document.getElementById('r-stage-nm').textContent = e.stage1_nm + ' nm';
 
+  // Gain bar text
+  document.getElementById('gb-stock-pk').textContent = e.stock_hp  + ' pk';
+  document.getElementById('gb-stage-pk').textContent = e.stage1_hp + ' pk';
+  document.getElementById('gb-delta-pk').textContent = '+' + gainPk + ' pk';
+  document.getElementById('gb-stock-nm').textContent = e.stock_nm  + ' nm';
+  document.getElementById('gb-stage-nm').textContent = e.stage1_nm + ' nm';
+  document.getElementById('gb-delta-nm').textContent = '+' + gainNm + ' nm';
+
   document.getElementById('result-panel').classList.add('show');
   document.getElementById('cta-row').classList.add('show');
+
+  // Animate bars after a short delay (lets the panel render first)
+  setTimeout(() => animateBars(e), 60);
+}
+
+function animateBars(e) {
+  // We scale to 120% of stage1 so there's always breathing room
+  const maxPk = e.stage1_hp * 1.2;
+  const maxNm = e.stage1_nm * 1.2;
+
+  const stockPkPct = (e.stock_hp  / maxPk * 100).toFixed(1);
+  const stagePkPct = (e.stage1_hp / maxPk * 100).toFixed(1);
+  const gainPkPct  = ((e.stage1_hp - e.stock_hp) / maxPk * 100).toFixed(1);
+
+  const stockNmPct = (e.stock_nm  / maxNm * 100).toFixed(1);
+  const stageNmPct = (e.stage1_nm / maxNm * 100).toFixed(1);
+  const gainNmPct  = ((e.stage1_nm - e.stock_nm) / maxNm * 100).toFixed(1);
+
+  // PK bar: red fills to stage1, green gain segment sits on top from stock→stage1
+  document.getElementById('bar-stage-pk').style.width  = stagePkPct + '%';
+  document.getElementById('bar-gain-pk').style.left    = stockPkPct + '%';
+  document.getElementById('bar-gain-pk').style.width   = gainPkPct  + '%';
+
+  // NM bar
+  document.getElementById('bar-stage-nm').style.width  = stageNmPct + '%';
+  document.getElementById('bar-gain-nm').style.left    = stockNmPct + '%';
+  document.getElementById('bar-gain-nm').style.width   = gainNmPct  + '%';
 }
 
 function sendRequest() {
@@ -882,6 +1030,13 @@ function resetForm() {
   activeField('f-merk');
   hideResult();
   setStep(1);
+
+  // Reset bars
+  ['pk','nm'].forEach(t => {
+    document.getElementById('bar-stage-' + t).style.width = '0%';
+    document.getElementById('bar-gain-'  + t).style.left  = '0%';
+    document.getElementById('bar-gain-'  + t).style.width = '0%';
+  });
 }
 </script>
 </body>
